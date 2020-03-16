@@ -1,0 +1,66 @@
+html.body{
+	padding: 0;
+	margin: 0;
+}
+body {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  margin: 0;
+}
+.togg-menu{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+
+}
+.togg-menu span{
+	height: 3px;
+	background-color: #D980FA;
+	width: 100%;
+	position: absolute;
+	top: 20px;
+	left: 0;
+
+}
+.togg-menu span:before {
+	content:'';
+	height: 3px;
+	background-color: #D980FA;
+	width: 100%;
+	position: absolute;
+	top: -10px;
+	left: 0;
+
+}
+.togg-menu span:after {
+	content:'';
+	height: 3px;
+	background-color: #D980FA;
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	left: 0;
+
+}
+
+
+.menu {
+  padding: 20px;
+  background-color: #ED4C67;
+}
+
+.menu ferme {
+  display: none;
+}
+.menu a{
+	color: #ffffff;
+	font-family: sans-serif;
+  text-align: center;
+	display: block;
+	padding-top: 30px;
+}
