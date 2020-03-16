@@ -1,10 +1,6 @@
-// var btn = document.querySelector('.toggle-btn');
-// var nav = document.querySelector('.nav');
-// btn.onclick = function (){
-//   nav.classList.toggle('nav-open');
-//
-// }
 
+// ouverture du burger
+// // fermeture du burger
 document.querySelector('.togg-menu').addEventListener('click', function() {
   document.querySelector('.menu').classList.toggle('ferme');
 });

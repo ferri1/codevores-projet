@@ -2,7 +2,7 @@ html.body{
 	padding: 0;
 	margin: 0;
 }
-body {
+ body {
   display: flex;
   align-items: stretch;
   height: 100%;
@@ -51,10 +51,10 @@ body {
 
 .menu {
   padding: 20px;
-  background-color: #ED4C67;
+  background-color: #78e08f;
 }
 
-.menu ferme {
+.menu.ferme {
   display: none;
 }
 .menu a{
