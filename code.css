@@ -1,13 +1,61 @@
-html.body{
-	padding: 0;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* fin de reset */
+
  body {
   display: flex;
   align-items: stretch;
   height: 100%;
   margin: 0;
 }
+
 .togg-menu{
 	height: 30px;
 	width: 30px;
@@ -20,7 +68,7 @@ html.body{
 }
 .togg-menu span{
 	height: 3px;
-	background-color: #D980FA;
+	background-color: black;
 	width: 100%;
 	position: absolute;
 	top: 20px;
@@ -30,7 +78,7 @@ html.body{
 .togg-menu span:before {
 	content:'';
 	height: 3px;
-	background-color: #D980FA;
+	background-color: #976ca7;
 	width: 100%;
 	position: absolute;
 	top: -10px;
@@ -40,7 +88,7 @@ html.body{
 .togg-menu span:after {
 	content:'';
 	height: 3px;
-	background-color: #D980FA;
+	background-color: #976ca7;
 	width: 100%;
 	position: absolute;
 	top: 10px;
@@ -50,8 +98,9 @@ html.body{
 
 
 .menu {
+	height: 40%;
   padding: 20px;
-  background-color: #78e08f;
+  background-color: #4962bb;
 }
 
 .menu.ferme {
@@ -64,3 +113,56 @@ html.body{
 	display: block;
 	padding-top: 30px;
 }
+/********* navbar********** */
+.navbar-brand img{
+	max-height: 25px;
+}
+/* le probleme % */
+.navbar{
+	width: 	195%!important;
+	height: 40px!important;
+}
+.bg-light {
+    background-color: #b4cce4!important;
+}
+/* section */
+/* le probleme %*/
+ .row {
+	width: 205%!important;
+	min-height: 70vh;
+	background-image: url("image/compter.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	color: #ffffff;
+	font-size: 20px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.form{
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 50px;
+}
+.slogan{
+	display: flex;
+	min-height: 70vh;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+/* responsiv */
+ /* @media (min-width: 768px) {
+.slogan{
+	display: none;
+}
+ } */
