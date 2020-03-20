@@ -119,7 +119,7 @@ table {
 
 .navbar{
 	width: 	195%!important;
-	height: 40px!important;
+	/* height: 40px!important; */
 }
 .bg-light {
     background-color: #b4cce4!important;
