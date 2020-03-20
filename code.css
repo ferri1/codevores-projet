@@ -97,9 +97,7 @@ table {
 
 }
 
-
 .menu {
-	height: 40%;
   padding: 20px;
   background-color: #4962bb;
 }
@@ -118,7 +116,7 @@ table {
 .navbar-brand img{
 	max-height: 25px;
 }
-/* le probleme % */
+
 .navbar{
 	width: 	195%!important;
 	height: 40px!important;
@@ -126,8 +124,7 @@ table {
 .bg-light {
     background-color: #b4cce4!important;
 }
-/* section */
-/* le probleme %*/
+
  .row {
 	width: 205%!important;
 	min-height: 70vh;
@@ -161,9 +158,3 @@ h2{
 	align-items: flex-end;
 	justify-content: flex-end;
 }
-/* responsiv */
- /* @media (min-width: 768px) {
-.slogan{
-	display: none;
-}
- } */
