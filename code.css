@@ -51,7 +51,7 @@ table {
 /* fin de reset */
 
  body {
-  display: flex;
+	 width: 100%;
   align-items: stretch;
   height: 100%;
   margin: 0;
@@ -118,7 +118,7 @@ table {
 }
 
 .navbar{
-	width: 	195%!important;
+	width: 	100%!important;
 	/* height: 40px!important; */
 }
 .bg-light {
@@ -126,7 +126,7 @@ table {
 }
 
  .row {
-	width: 205%!important;
+	width: 100%!important;
 	min-height: 70vh;
 	background-image: url("image/compter.jpg");
 	background-repeat: no-repeat;
@@ -156,5 +156,37 @@ h2{
 	display: flex;
 	min-height: 70vh;
 	align-items: flex-end;
-	justify-content: flex-end;
+	justify-content: center;
+}
+.slogann{
+	color: #d45525;
+	font-size: 2.5rem;
+	 height: 87vh;
+	 flex-wrap: wrap!important; 
+  align-items: flex-end;
+	justify-content: center;
+}
+.solo{
+	font-family: 'Dancing Script', cursive, 25px;
+	margin-bottom: 50px;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.theme-jour {
+  background-color: white;
+  color: black;
+
+}
+
+.theme-nuit {
+  background-color: black;
+  color: white;
+}
+.hotte{
+	background: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg");
+	/* background-size: cover; */
+	height: 500px;
+	width: 100%;
+
 }
