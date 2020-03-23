@@ -125,8 +125,7 @@ table {
     background-color: #b4cce4!important;
 }
 
- .row {
-	width: 100%!important;
+ .row.un {
 	min-height: 70vh;
 	background-image: url("image/compter.jpg");
 	background-repeat: no-repeat;
@@ -162,7 +161,7 @@ h2{
 	color: #d45525;
 	font-size: 2.5rem;
 	 height: 87vh;
-	 flex-wrap: wrap!important; 
+	 flex-wrap: wrap!important;
   align-items: flex-end;
 	justify-content: center;
 }
@@ -189,4 +188,66 @@ h2{
 	height: 500px;
 	width: 100%;
 
+}
+/* les raison presentation page index */
+#presentation .media span{
+	color: #ccbd0f;
+	font-size: 3em;
+
+}
+h5{
+	font-size: 1.5em;
+}
+/* ***********************Avis index*********************************  */
+.fondbureau{
+	min-height: calc(100vh - 50vh );
+	background-image: url("image/equipedev.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.avisclient{
+	min-height: calc(100vh - 50vh );
+	color: black;
+	background-color: #d3dae4;
+}
+
+.avisclient span{
+	font-size: 3em;
+	color: #301a86;
+}
+.avisclient h5{
+	font-size: 2em;
+	color: #1057bd;
+}
+/* ***********************Formulaire de contact*********************************  */
+#contact{
+	min-height: calc(100vh - 50vh );
+	background-image: url("image/contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#contact .row{
+min-height: calc(100vh - 50vh );
+}
+.formcontact{
+background-color: rgba(255, 255, 255, 0.7);
+padding: 2rem 1rem;
+}
+/* ***********************Formulaire de contact*********************************  */
+footer {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #9999;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+}
+footer a{
+	color: #9999;
+	font-size: 2rem;
+	transition: all .2s ease-in-out;
+}
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
 }
