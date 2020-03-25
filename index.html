@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>espace recruteur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
      <!-- partie css -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -19,7 +20,7 @@
 <body id="haut">
   <!-- ***********************navbar********************************* -->
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="togg-menu">
         <span></span>
         </div>
@@ -43,15 +44,16 @@
          </ul>
        </nav>
       </div>
+
+        <button type="button" class="chat">
+          🌙
+        </button>
+        <button type="button" class="theme">
+          ☀️
+        </button>
         <a class="navbar-brand" href="#haut">
           <img src="image/develop.jpg" alt="">Codevores.CO
         </a>
-        <button type="button" class="chat">
-            🌙
-          </button>
-          <button type="button" class="theme">
-            ☀️
-          </button>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -73,8 +75,9 @@
         </ul>
        </div>
      </nav>
+</header>
 
-      <section class="container-fluid">
+      <div class="container-fluid">
         <div class="row un">
 <!-- ***********************1ere col********************************* -->
           <div class="col-12 col-md-6 form">
@@ -94,13 +97,13 @@
             <h2 class="slogan">Votre développeuse Web à 1 clic</h2>
            </div>
       </div>
-    </section>
+    </div>
   </header>
   <!-- pour quoi choisir nous  lien presentation-->
   <div class="container" id="presentation">
     <div class="row">
       <div class="col-12 mb-4">
-        <h2 class="solo">Plusieurs raisons de devenir un/une codevoreu(ses)</h2>
+        <h2 class="solo">Plusieurs raisons de recruter un/une de nos codevoreu(se)</h2>
       </div>
       <div class="col-12 col-md-6">
         <div class="media my-3">
@@ -180,6 +183,7 @@
       </div>
     </div>
     <hr>
+    <hr>
     <!-- ***********************Formulaire de contact********************************* -->
       <div class="container-fluid" id="contact">
         <div class="row align-items-center">
@@ -198,37 +202,54 @@
                 <textarea class="form-control" name="message" row="3" placeholder="Saisir votre message">
               </textarea>
 
-              <button type="submit" class="btn btn-info">Envoyer</button>
+              <button type="submit" class="btn btn-info" id="envoyer">Envoyer</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-<!-- ***********************Footer********************************* -->
-  <footer class="container-fluid">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-12 col-md-4 text-center">
-        <p>Adresse</p>
-        <p>15 Rue Martin Garat <br>
-        75020 PARIS</p>
-        <p>codevore@gmail.com</p>
-      </div>
-      <div class="col-12 col-md-4 text-center">
-        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
-        </a>
-        <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
-        </a>
-        <a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fab fa-youtube-square"></i>
-        </a>
-        <p>Copyrighet</p>
-        <p>Mention légales</p>
-        <p>Anneé 2020</p>
+    <br>
+    <hr>
+    <!-- ***********************Footer********************************* -->
+      <footer class="container-fluid">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-12 col-md-4 text-center">
+            <p>Adresse</p>
+            <p>15 Rue Martin Garat <br>
+            75020 PARIS</p>
+            <p><i class="fas fa-envelope-square"></i>codevore@gmail.com</p>
+            <p><i class="fas fa-tty"></i>0776788778</p>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <p>
+              REJOIGNEZ-NOUS<br>
+              Nos métiers<br>
+              Jobs<br>
+               Candidatures spontanées<br>
+              Entreprises<br>
+            </p>
+            <br>
+            <a href="#" class="button-black"><button>Envoyer votre cv</button>
+            </a>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fab fa-youtube-square"></i>
+            </a>
 
-      </div>
+            <p>Copyrighet</p>
+            <p>Mention légales</p>
+            <p>Anneé 2020</p>
 
-     </div>
 
-</footer>
+          </div>
+
+         </div>
+
+    </footer>
 
 
 
@@ -250,6 +271,11 @@
 
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+     <script type="text/javascript">
+       $(function(){
+
+       });
+     </script>
     <script src="script.js"></script>
     <!-- fin js -->
   </body>

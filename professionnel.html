@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>espace recruteur</title>
      <!-- partie css -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
@@ -29,7 +30,7 @@
            ❌
          </button>
         <nav>
-         <ul>
+         <ul class="ull">
               <li><a  href="index.html">Espace recruteur</a></li>
               <li><a href="pageduprofessionnel.html">Page du professionnel</a></li>
               <li><a href="professionnel.html">professionnel</a></li>
@@ -44,7 +45,7 @@
        </nav>
       </div>
 
-      <button type="button" class="chat">
+        <button type="button" class="chat">
           🌙
         </button>
         <button type="button" class="theme">
@@ -63,18 +64,19 @@
               <a class="nav-link" href="#haut">Acceuil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#presentation">Présentation</a>
+              <a class="nav-link" href="#presentation-pro">Présentation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#avis">Avis</a>
+              <a class="nav-link active" href="#avis-pro">Avis</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact-pro">Contact</a>
             </li>
         </ul>
        </div>
      </nav>
-     <div>
+
+     <div class="container-fluid">
        <h1 class="solo">Boîte informatique Codevores.co</h1>
        <form class="form-inline">
          <div class="form-group mx-sm-3 mb-2">
@@ -82,18 +84,148 @@
          </div>
        <button type="submit" class="btn btn-primary mb-2">Confirme rendez vous</button>
        </form>
-     </div>
+
 
 
         <h2 class="slogann">VOTRE DEVELOPPEUSE WEB À UN CLIC <br>
         Codevores.co
       </h2>
+    </div>
 
 
 
   </header>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div style="text-align: center; padding-top: 15px; font-size:4vh">
+  <label for="sujet">Inscription sur notre site</label>
+  <a href="nom_de_la_page"><button>Inscription</button></a>
+  <label for="sujet">Mot de passe</label>
+  <a href="nom_de_la_page"><button>Connexion</button></a>
+  </div>
+  <div  style="width: auto;  padding-top: 15px; padding-bottom: 15px; border: 10px solid #0fcc6c; margin: 20px;">
+    <h5>Codevore c'est quoi?</h5>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+ </div>
+ <hr>
+ <!-- ********pour quoi choisir nous****** -->
+ <div class="container" id="presentation-pro">
+   <div class="row">
+     <div class="col-12 mb-4">
+       <h2 class="solo">Plusieurs raisons de devenir un/une de nos codevoreu(se)
+         rejoignez notre equipe
+       </h2>
 
+     </div>
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-sitemap"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Travail en équipe</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-user-clock"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Possibilité de télé travail</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-graduation-cap"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Approfondir vos connaissances</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-euro-sign"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Meilleur salaire</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-keyboard"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Avoir une bonne éxperience</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+     <div class="col-12 col-md-6">
+       <div class="media my-3">
+         <span><i class="fas fa-building"></i></span>
+         <div class="media-body ml-3">
+           <h5 class="mt-0">Travailler dans de grand entreprise</h5><br>
+           <p class="text-justify"> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+         </div>
+      </div>
+     </div>
+     <hr>
+     <hr>
+     <!-- ***********************Avis********************************* -->
+
+     <div class="container-fluid" id="avis-pro">
+       <div class="row">
+         <div class="col-12 col-md-6 avis-pro">
+
+         </div>
+         <div class="col-12 col-md-6 avisclient text-center d-flex flex-column justify-content-center">
+           <span><i class="fas fa-quote-right"></i></span>
+           <h5 class="my-4">Rayane</h5>
+           <p>Lorem Ipsum On sait depuis longtemps que travailler avec du texte lisible et contenant.</p>
+           <h5 class="my-4">Maya</h5>
+           <p>Lorem Ipsum On sait depuis longtemps que travailler avec du texte lisible.</p>
+         </div>
+
+     </div>
+   </div>
+   <hr><hr>
+   <!-- ***********************Formulaire de contact********************************* -->
+     <div class="container-fluid"  id="contact-pro">
+       <div class="row align-items-center">
+         <div class="col-12 offset-md-1 col-md-5 formcontact">
+           <form action="mailto:lyndaferri07gmail.com" methode="post" enctype="text/plain">
+             <div class="form-group">
+               <label for="email">Email</label>
+               <input type="email" class="form-control" name="email" placeholder="Saisir votre Email">
+             </div>
+             <div class="form-group">
+               <label for="sujet">Sujet</label>
+               <input type="text" class="form-control" name="sujet" placeholder="Saisir le sujet du mail">
+             </div>
+             <div class="form-group">
+               <label for="message">Message</label>
+               <textarea class="form-control" name="message" row="3" placeholder="Saisir votre message">
+               </textarea>
+
+             <button type="submit" class="btn btn-info" id="envoyer">Envoyer</button>
+           </form>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+      </div>
+     </div>
+ </div>
+</div>
+<hr>
 
 <!-- ***********************Footer********************************* -->
   <footer class="container-fluid">
@@ -102,7 +234,20 @@
         <p>Adresse</p>
         <p>15 Rue Martin Garat <br>
         75020 PARIS</p>
-        <p>codevore@gmail.com</p>
+        <p><i class="fas fa-envelope-square"></i>codevore@gmail.com</p>
+        <p><i class="fas fa-tty"></i>0776788778</p>
+      </div>
+      <div class="col-12 col-md-4 text-center">
+        <p>
+          REJOIGNEZ-NOUS<br>
+          Nos métiers<br>
+          Jobs<br>
+           Candidatures spontanées<br>
+          Entreprises<br>
+        </p>
+        <br>
+        <a href="#" class="button-black"><button>Envoyer votre cv</button>
+        </a>
       </div>
       <div class="col-12 col-md-4 text-center">
         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
@@ -111,9 +256,11 @@
         </a>
         <a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fab fa-youtube-square"></i>
         </a>
+
         <p>Copyrighet</p>
         <p>Mention légales</p>
         <p>Anneé 2020</p>
+
 
       </div>
 
