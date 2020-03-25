@@ -200,7 +200,7 @@ h2{
 
 }
 h5{
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 /* ***********************Avis index*********************************  */
 .fondbureau{
@@ -224,22 +224,32 @@ h5{
 	font-size: 2em;
 	color: #1057bd;
 }
+.formulaireindex{
+	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-pink-fresh-cute-background-image_258259.jpg);
+	
+}
 /* ***********************Formulaire de contact*********************************  */
-#contact{
+#contact-ind{
 	min-height: calc(100vh - 50vh );
 	background-image: url("image/contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-#contact .row{
+#contact-ind .row{
 min-height: calc(100vh - 50vh );
 }
 .formcontact{
 background-color: rgba(255, 255, 255, 0.7);
 padding: 2rem 1rem;
 }
-/* ***********************Formulaire de contact*********************************  */
+/* les raison presentation page index */
+#presentation-ind .media span{
+	color: blue;
+	font-size: 3em;
+
+}
+/* ***********************Formulaire de contact page index*********************************  */
 footer {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: #9999;
@@ -371,4 +381,12 @@ justify-content: center;
 	text-align:  center;
 	font-size: 1.2em;
 	color: #fff;
+}
+/* formulaire de contact 3 destinataire */
+#contact-co{
+	font-size: 1.2em;
+	background-image: url(https://i.pinimg.com/originals/c9/aa/2f/c9aa2f563b16534c51a6ab8df69f4900.png);
+.formulaire{
+	text-align: center;
+	font-size: 1.6em;
 }
