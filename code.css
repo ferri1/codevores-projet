@@ -56,7 +56,7 @@ table {
   height: 100%;
   margin: 0;
 }
-.ull{
+.navigation{
 	position: absolute;
 }
 
@@ -200,7 +200,7 @@ h2{
 
 }
 h5{
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 /* ***********************Avis index*********************************  */
 .fondbureau{
@@ -288,4 +288,87 @@ footer a:hover{
 	text-shadow: 10pm;
 	font-size: 7vh;
 	text-align: center;
+}
+
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.our-webcoderskull{
+  background: url("https://cdn.pixabay.com/photo/2016/12/18/02/39/paper-1914906_1280.jpg") no-repeat center top / cover;
+
+}
+.our-webcoderskull .cnt-block{
+   float:left;
+   width:100%;
+   background:#fff;
+   padding:30px 20px;
+   text-align:center;
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px;
+   height:148px;
+   border-radius:100%;
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{
+   width:148px;
+   height:148px;
+   border-radius:100%;
+}
+.our-webcoderskull .cnt-block h3{
+   color:#2a2a2a;
+   font-size:20px;
+   font-weight:500;
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{
+   color:#2a2a2a;
+   font-size:13px;
+   line-height:20px;
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.form-inline{
+display: flex;
+justify-content: center;
+
+
+}
+.our-webcoderskull .cnt-block .follow-us li{
+  display: inline-block;
+	width: auto;
+	margin : 0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{
+   font-size:24px;
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{
+   color:#025a8e;
+}
+.footer{
+	text-align:  center;
+	font-size: 1.2em;
+	color: #fff;
 }
