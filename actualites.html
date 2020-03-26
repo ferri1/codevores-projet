@@ -6,43 +6,277 @@
      <!-- partie css -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="code.css">
      <!-- fin de css -->
      <!-- google font -->
      <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
      <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg="nest"></script>
      <!-- fin google font -->
-     <link rel="shortcut icon"  href="image/develop.jpg">
   </head>
   <body>
     <!-- <header> -->
+    <!-- <header> -->
     <header>
-      <div class="togg-menu">
-      <span></span>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="togg-menu">
+          <span></span>
+        </div>
+
         <div class="menu ferme">
           <button type="button" class="fermer-menu" title="Fermer le menu">
-           ❌
-         </button>
-            <nav>
-              <ul>
-                  <li><a  href="index.html">Espace recruteur</a></li>
-                  <li><a href="pageduprofessionnel.html">Page du professionnel</a></li>
-                  <li><a href="professionnel.html">professionnel</a></li>
-                  <li><a href="communaute.html">communaute</a></li>
-                  <li><a href="connection.html">Page de connection</a></li>
-                  <li><a href="inscription.html">Page d'inscription</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="actualites.html">Actualites</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+            ❌
+          </button>
+          <nav>
+            <ul class="navigation" style="background-color: #b85a0d;">
+              <li><a  href="index.html">Espace recruteur</a></li>
+              <li><a href="pageduprofessionnel.html">Page du professionnel</a></li>
+              <li><a href="professionnel.html">professionnel</a></li>
+              <li><a href="communaute.html">communaute</a></li>
+              <li><a href="connection.html">Page de connection</a></li>
+              <li><a href="inscription.html">Page d'inscription</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="actualites.html">Actualites</a></li>
+              <li><a href="contact.html">Contact</a></li>
 
             </ul>
           </nav>
         </div>
-              <!-- Collapsible content -->
 
-  </header>
-      <!-- fin header -->
+        <button type="button" class="chat">
+          🌙
+        </button>
+        <button type="button" class="theme">
+          ☀️
+        </button>
+        <a class="navbar-brand" href="#haut">
+          <img src="image/develop.jpg" alt="">Codevores.CO
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#haut">Acceuil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#list">List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#avis-pro">Avis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-pro">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    </header>
+    <main>
+       <h5>Retrouvez les actualités du monde numérique.</h5><br>
+        <h3 style="font-size:1.6em; color:red;">Téletravail: nos bonnes pratiques</h3>
+        <p style="font-size:1.2em;">Chez Novatim, nous avons rédigé un Guide des bonnes <br>
+        pratiques du télétravail pendant la période de confinement <br>
+        annoncée, pour organiser la collaboration de nos équipes en <br>
+        toute sérénité. Extraits choisis.</p><br>
+        <h3 style="font-size:1.6em; color:red;">.Les prérequis</h3><br>
+        <h3 style="font-size: 1.5em">Avoir du matériel adapté</h3>
+        <p style="font-size:1.2em;">Ordinateur, casque, caméra, gel hydroalcoolique…soyez
+        équipés !</p><br>
+        <h3 style="font-size:1.5em;">Avoir une bonne connexion Internet</h3>
+        <p style="font-size:1.2em;">Accéder au réseau et aux données de son entreprise nécessite une bonne connexion internet :
+        oubliez les modems 56Kbps.<p style="font-size:1.2em;"><br>
+        <h3 style="font-size:1.5em;">S’installer dans un endroit calme</h3>
+            <p style="font-size:1.2em;">Pour recréer un environnement de travail où l’on peut se concentrer. Bon, même si la maison va
+            ressembler à un open space dans un square. Soit.</p><br>
+        <h3 style="font-size:1.5em;">Être connecté en VPN du réseau de son entreprise</h3>
+            <p style="font-size:1.2em;">Oui, le principe du télétravail est de travailler à distance, et cela nécessite un accès <br>
+            aux données de votre entreprise.<p/><br>
+        <h3 style="font-size:1.6em; color:red;">.Les bonnes pratiques <br>
+            <h3 style="font-size:1.5em;">Travailler aux mêmes horaires qu’au bureau</h3>
+              <p style="font-size:1.2em;">Ni plus, ni moins (sauf si vous êtes en 24/24).</p><br>
+
+             <h3 style="font-size:1.5em;">Être joignable et connecté pendant les heures travaillées</h3>
+             <p style="font-size:1.2em;">Ça peut toujours être utile dans le cadre d’un travail en équipe.<p/><br>
+
+            <h3 style="font-size:1.5em;">Hors des heures travaillées</h3>
+               <p style="font-size:1.2em;">En profiter pour se détendre, lire, suivre sa série préférée ou faire du sport ! On va être cultivés et
+                 fits à la fin de cette période 🤸‍♀️</p><br>
+
+        <h3 style="font-size:1.6em; color:red;">A éviter</h3><br>
+         <h3 style="font-size:1.5em;">Ecouter à fond le dernier titre de Dua Lipa</h3>
+           <p style="font-size:1.2em;">Tous nos interlocuteurs n’ont pas les mêmes -bons- goûts musicaux</p><br>
+
+        <h3 style="font-size:1.5em;"> Se mettre en « ne pas déranger »</h3>
+          <p style="font-size:1.2em;"> Travailler au calme ne signifie pas forcément se couper du monde.</p><br>
+
+         <h3 style="font-size:1.5em;">S’habiller en pyjama troué</h3>
+           <p style="font-size:1.2em;">Ah non, ça vous pouvez !</p><br>
+           <h5><a href="#">Personnel recruté dernièrement</a></h5>
+
+
+<!-- Team -->
+<section class="our-webcoderskull padding-lg" style="background-color: red;">
+  <div class="container" style="background-color: pink;">
+    <div class="row heading heading-icon">
+        <h2><a href="#">Elles rejoignent Codevores</h2>
+    </div>
+
+<ul class="row" style="justify-content: center;">
+  <li class="col-12 col-md-6 col-lg-3">
+      <div class="cnt-block equal-hight" style="height: 349px;">
+        <figure><img src="https://ds1.static.rtbf.be/article/image/1248x702/2/a/0/5e62d03aec0d17facfc5355dd90d441c-1512575731.png" class="img-responsive" alt=""></figure>
+        <h3><a href="http://www.webcoderskull.com/">LEA </a></h3>
+        <p>DEVELOPPEUSE java script<br>
+          Gérer les moyens de l'entreprise en termes financiers </p>
+        <ul class="follow-us clearfix">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-linkedin"></i>
+          </a>
+        </ul>
+      </div>
+  </li>
+  <li class="col-12 col-md-6 col-lg-3">
+      <div class="cnt-block equal-hight" style="height: 349px;">
+        <figure><img src="https://1f0c7243sbms4c9a3d39xz61-wpengine.netdna-ssl.com/wp-content/uploads/2011/06/portrait-photo_apprendre-la-photo_laurent-breillat-407x610.jpg" class="img-responsive" alt=""></figure>
+
+        <h3><a href="#">LAna </a></h3>
+        <p>DEV Front end</p>
+        <ul class="follow-us clearfix">
+          <ul class="follow-us clearfix">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-linkedin"></i>
+            </a>
+          </ul>
+        </ul>
+      </div>
+  </li>
+
+<li class="col-12 col-md-6 col-lg-3">
+<div class="cnt-block equal-hight" style="height: 349px;">
+  <figure><img src="https://1f0c7243sbms4c9a3d39xz61-wpengine.netdna-ssl.com/wp-content/uploads/2011/06/photo-portrait_laurent-breillat-8-407x610.jpg" class="img-responsive" alt=""></figure>
+  <h3><a href="#">SACHA </a></h3>
+  <p>Dev'python 20 ans d'expérience</p>
+  <ul class="follow-us clearfix">
+    <ul class="follow-us clearfix">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-linkedin"></i>
+      </a>
+    </ul>
+  </ul>
+</div>
+</li>
+</section>
+
+
+
+    <h3 style="font-size:1.6em; color:red;">Une journée de Rencontre Codevores et beaucoup d'activités</h3>
+
+
+    <div class="container" style="background-color:#e6f5f4; ">
+      <div class="row justify-content-around align-items-center" style="color:black;">
+
+        <div  class="col-12 col-md-4 text-center">
+          <h5 style="font-size:1.4em; color:red;">Le programme de la journéé:</h5>
+          <div class="evenement">
+            <p>Nouvelle technique</p>
+            <p>Conférences</p>
+            <p>Ateliers</p>
+            <p>Rencontres</p>
+            <p>Recrutement</p>
+            <p><a href="#">Le programme</a></p>
+          </div>
+        </div>
+
+
+        <div  class="col-12 col-md-4 text-center" >
+            <h5 style="font-size:1.4em; color:red;">La date & heure:</h5>
+            <div class="evenement">
+              <p>Samedi le 28 mars 2020</p>
+              <p>À Partir de 9h</p>
+              <p>Jusqu'à 18h</p>
+            </div>
+        </div>
+        <div  class="col-12 col-md-4 text-center">
+          <h5 style="font-size:1.4em; color:red;">Le lieu:</h5>
+          <div class="evenement">
+            <p> Paris</p>
+            <p> 15 rue Martin Garat</p>
+            <p>7502O Paris</p>
+          </div>
+        </div>
+        <div  class="col-12 col-md-4 text-center">
+        <h6>Une journée est organisée pour les développeuses</h6>
+        <h5 ><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>Rejoignez l'événement!</a></h5>
+      </div>
+
+
+     </div>
+    </div>
+ </main>
+ <br>
+ <hr>
+ <!-- ***********************Footer********************************* -->
+   <footer class="container-fluid">
+     <div class="row justify-content-around align-items-center" style="color:#fffff0;">
+       <div class="col-12 col-md-4 text-center #fff">
+         <p>Adresse</p>
+         <p>15 Rue Martin Garat <br>
+         75020 PARIS</p>
+         <p><i class="fas fa-envelope-square"></i>codevore@gmail.com</p>
+         <p><i class="fas fa-tty"></i>0776788778</p>
+       </div>
+       <div class="col-12 col-md-4 text-center #fff">
+         <p>
+           REJOIGNEZ-NOUS<br>
+           Nos métiers<br>
+           Jobs<br>
+            Candidatures spontanées<br>
+           Entreprises<br>
+         </p>
+
+       </div>
+       <div class="col-12 col-md-4 text-center">
+
+         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+         </a>
+         <a href="https://twitter.com/login?lang=fr" target="_blank"><i class="fab fa-twitter-square"></i>
+         </a>
+         <a href="https://www.youtube.com/?hl=fr&gl=FR" target="_blank"><i class="fab fa-youtube-square"></i>
+         </a>
+         <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i>
+         </a>
+         <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i>
+         </a>
+         <br>
+         <a href="#" class="button-black"><button style="width:7em; height:2em;font-size: 0.5em;">Envoyer le cv</button>
+         </a>
+       </div>
+      </div>
+      <hr>
+      <div class="footer">
+         <p>Copyrighet</p>
+         <p>Mention légales</p>
+         <p>Ferri lynda<br>
+         année 2020</p>
+     </div>
+
+
+ </footer>
 
 
 
@@ -52,4 +286,4 @@
     <script src="script.js"></script>
     <!-- fin js -->
   </body>
-</html>
+  </html>

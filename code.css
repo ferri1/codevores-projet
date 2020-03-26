@@ -100,10 +100,9 @@ table {
 
 }
 
-.menu {
-  padding: 20px;
+/* .menu.ferme {
   background-color: #b85a0d;
-}
+} */
 
 .menu.ferme {
   display: none;
@@ -226,7 +225,7 @@ h5{
 }
 .formulaireindex{
 	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-pink-fresh-cute-background-image_258259.jpg);
-	
+
 }
 /* ***********************Formulaire de contact*********************************  */
 #contact-ind{
@@ -312,7 +311,7 @@ footer a:hover{
 }
 
 .our-webcoderskull{
-  background: url("https://cdn.pixabay.com/photo/2016/12/18/02/39/paper-1914906_1280.jpg") no-repeat center top / cover;
+  background: url("https://cdn.pixabay.com/photo/2016/12/18/02/39/paper-1914906_1280.jpg") no-repeat center top / cover;)
 
 }
 .our-webcoderskull .cnt-block{
@@ -390,3 +389,12 @@ justify-content: center;
 	text-align: center;
 	font-size: 1.6em;
 }
+.btncv{
+	   width: 10px;
+	   height: 20px;
+		 font-size: 5px;
+	}
+	/* ***********************page actualité*********************************  */
+	.evenementt{
+		color: red;
+	}
