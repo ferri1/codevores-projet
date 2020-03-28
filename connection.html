@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="code.css">
+    <link rel="stylesheet" href="style.css">
      <!-- fin de css -->
      <!-- google font -->
      <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
@@ -17,18 +18,18 @@
   <body>
     <!-- <header> -->
     <!-- <header> -->
-    <header class="hotte">
+    <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="togg-menu">
           <span></span>
           </div>
 
          <div class="menu ferme" >
-            <button type="button" class="fermer-menu" title="Fermer le menu" style="background-color: #b85a0d;">
+            <button type="button" class="fermer-menu" title="Fermer le menu" style="background-color: #fff;">
              ❌
            </button>
            <nav>
-            <ul class="navigation" style="background-color: #b85a0d;">
+            <ul class="navigation" style="background-color: #fff;">
                  <li><a  href="index.html">Communauté</a></li>
                  <li><a href="pageduprofessionnel.html">Page du professionnel</a></li>
                  <li><a href="professionnel.html">professionnel</a></li>
@@ -61,34 +62,79 @@
               <li class="nav-item active">
                 <a class="nav-link" href="#haut">Acceuil <span class="sr-only">(current)</span></a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#presentation-pro">Présentation</a>
+                <a class="nav-link active" href="#avis-conc">Avis</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#avis-pro">Avis</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-pro">Contact</a>
+                <a class="nav-link" href="#contact-conc">Contact</a>
               </li>
           </ul>
          </div>
        </nav>
 
-       <div class="container-fluid">
-         <h1 class="solo">Boîte informatique Codevores.co</h1>
-         <form class="form-inline">
-           <div class="form-group mx-sm-3 mb-2">
-             <input type="date" class="form-control" name="daterendezvous">
-           </div>
-         <button type="submit" class="btn btn-primary mb-2">Confirme rendez vous</button>
-         </form>
 
-          <h2 class="slogann">VOTRE DEVELOPPEUSE WEB À UN CLIC <br>
-          Codevores.co
-        </h2>
+ </header>
+    <main style="background: url(https://pbs.twimg.com/profile_images/1079416794761306112/wV-E1aw5_400x400.jpg)" id="contact-conc">
+     <h1 style="text-align:center; font-size: 2em; padding-top: 1.2em; color: #fff; text-shadow: -1px 0 black, 0 1px black;">connecter vous sur notre magnifique site</h1>
+      <br>
+    <section class="login-container">
+      <div class="connection">
+        <h2 style="text-align:center; font-size: 2em; padding-top: 1.2em; color: black; text-shadow: -1px 0 black, 0 1px black;">Identification</h2>
+         <form class="" action="" method="post">
+           <input type="text" name="usernam" value="" placeholder="Nom d'utilisateur" required="required">
+           <input type="password" name="password" value="" placeholder="Mot de pass" required="required"> <br>
+           <label for="">Sexe</label> M <input type="radio" name="choice" value=""> F  <input type="radio" name="choice" value=""> <br>
+           <button type="submit" name="button" id="btn">Connexion</button>
+
+         </form>
       </div>
 
-</header>
+    </section>
+
+
+    <h3 style=" font-size: 2em; padding-top: 1.2em; text-shadow: -1px 0 black, 0 1px black;">votre avis compte beaucoup pour nous</h3>
+    <form class="rating" id="avis-conc">
+
+         <label>
+          <input type="radio" name="stars" value="1" />
+          <span class="icon">★</span>
+        </label>
+        <label>
+          <input type="radio" name="stars" value="2" />
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+        </label>
+        <label>
+          <input type="radio" name="stars" value="3" />
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+        </label>
+        <label>
+          <input type="radio" name="stars" value="4" />
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+        </label>
+        <label>
+          <input type="radio" name="stars" value="5" />
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+          <span class="icon">★</span>
+        </label>
+ </form>
+  <p style=" font-size: 1.2em;">vote avis est important pour améliorer notre  blala blala blala (également appelé faux-texte, lipsum, ou bolo bolo1) est, en imprimerie, une suite de mots sans <br> signification  utilisée à titre provisoire pour
+    calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée.</p>
+ </div>
+  </main>
+  <br>
+
+
+
 
 
 <!-- ***********************Footer********************************* -->
@@ -146,6 +192,7 @@
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src="style.js"></script>
     <!-- fin js -->
   </body>
 </html>

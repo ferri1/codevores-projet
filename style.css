@@ -44,3 +44,131 @@
 .content-inner {
   padding: 15px;
 }
+.span{
+  font-size: 1.2em;
+  color: blue;
+}
+
+
+  #contact-faq{
+
+  	min-height: calc(100vh - 50vh );
+  	background-image: url("https://businessblog.trivago.com/wp-content/uploads/2019/10/The-Best-Ways-for-Hoteliers-to-Contact-trivago.jpg")!important;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  }
+
+  	/* ***********************page Connexion********************************* */
+    section.login-container{
+      display: flex;
+
+    }
+    /* creer une boite avec une couleur d'arriere-plan et une bordure */
+    .connection {
+      text-align: center;
+      width: 450px;
+      margin: auto;
+      padding: 20px;
+      background: #eee;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    /* nous voulont que les champs de formulaire prennent toute la largeur
+    les outline : 0; empeche un surlignement de l'objet de focus. */
+      form input[type ="password"],
+      form input[type= "text"],
+      form button[type = "submit"]{
+        width:   17em;
+        margin-bottom: 32px;
+        padding: 16px;
+        color : #333;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      /* au survol et au focus des champs de saisie de texte  nous changons la couleur d'arriere plan */
+       form input[type ="password"]:focus,
+       form input[type ="password"]:hover,
+      form input[type= "text"]:focus,
+      form input[type= "text"]:hover{
+        background-color: #ccc;
+      }
+      form button[type="submit"] {
+        font-weight: bold;
+        color : #eee;
+        text-transform: uppercase;
+        background-color: #e67e22;
+      }
+   /* mises-en forme du button pour l'envoi du formulaire au survol et au focus */
+
+   form button[type= "submit"]:focus,
+   form button[type= "submit"]:hover{
+     background-color: #d35400;
+   }
+
+
+   .rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}

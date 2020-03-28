@@ -72,7 +72,7 @@ table {
 }
 .togg-menu span{
 	height: 3px;
-	background-color: black;
+	background-color: blue;
 	width: 100%;
 	position: absolute;
 	top: 20px;
@@ -82,7 +82,7 @@ table {
 .togg-menu span:before {
 	content:'';
 	height: 3px;
-	background-color: #976ca7;
+	background-color: black;
 	width: 100%;
 	position: absolute;
 	top: -10px;
@@ -92,7 +92,7 @@ table {
 .togg-menu span:after {
 	content:'';
 	height: 3px;
-	background-color: #976ca7;
+	background-color: black;
 	width: 100%;
 	position: absolute;
 	top: 10px;
