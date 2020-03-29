@@ -28,15 +28,3 @@ document.querySelector("#envoyer").addEventListener('click', function() {
 envoyer.addEventListener("click", function() {
   console.log("ça fonctionne à partir de l'objet créer par le navigateur à partir de l'ID de l'élément HTML");
 });
-
-
-
-$('.ratings').rating(function(vote, event){
-   $.ajax({
-     method: 'post',
-     url :'instrating.php',
-     data: {vote: vote}
-  }).done(function(info){
-     $('.info').html("your vote : <b>"+info"</b>")
-  })
-  })

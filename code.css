@@ -201,10 +201,10 @@ h2{
 h5{
 	font-size: 1.5em;
 }
-/* ***********************Avis index*********************************  */
+/* ***********************Avis recruteur*********************************  */
 .fondbureau{
 	min-height: calc(100vh - 50vh );
-	background-image: url("image/equipedev.jpg");
+	background-image: url("https://fotomelia.com/wp-content/uploads/edd/2015/11/banque-d-images-et-photos-gratuites-libres-de-droits-t%C3%A9l%C3%A9chargement-gratuits287-1560x1040.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -230,7 +230,7 @@ h5{
 /* ***********************Formulaire de contact*********************************  */
 #contact-ind{
 	min-height: calc(100vh - 50vh );
-	background-image: url("image/contact.jpg");
+	background-image: url("https://fotomelia.com/wp-content/uploads/2016/06/images-gratuites-libres-de-droits-sans-droits-d-auteur-61-1560x1040.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

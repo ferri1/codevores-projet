@@ -61,14 +61,12 @@
             <a class="nav-link" href="#haut">Acceuil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#presentation-pro">Présentation</a>
+            <a class="nav-link" href="#form-inscription">inscription</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#avis-pro">Avis</a>
+            <a class="nav-link active" href="#avis-inscription">Avis</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-pro">Contact</a>
-          </li>
+
         </ul>
       </div>
     </nav>
@@ -77,7 +75,109 @@
   <main style="background: url(https://pbs.twimg.com/profile_images/1079416794761306112/wV-E1aw5_400x400.jpg)">
     <h1 style="text-align:center; font-size: 2em; padding-top: 1.2em; color: #fff; text-shadow: -1px 0 black, 0 1px black;">Creer mon Compte Codevores</h1>
     <br>
+    <title>Vérifier les saisies de formulaire</title>
+<script type="text/javascript">
+<!--
+function verif_formulaire()
+{
+ if(document.formulaire.nom.value == "")  {
+   alert("Veuillez entrer votre nom!");
+   document.formulaire.nom.focus();
+   return false;
+  }
+ if(document.formulaire.mot_de_passe.value == "") {
+   alert("Veuillez entrer votre mot de passe!");
+   document.formulaire.mot_de_passe.focus();
+   return false;
+  }
+ if(document.formulaire.courriel.value == "") {
+   alert("Veuillez mettre l'@!");
+   document.formulaire.courriel.focus();
+   return false;
+  }
+ if(document.formulaire.courriel.value.indexOf('@') == -1) {
+   alert("Veuillez mettre l'@!");
+   document.formulaire.courriel.focus();
+   return false;
+  }
+ if(document.formulaire.age.value == "") {
+   alert("L'age doit être un nombre!");
+   document.formulaire.age.focus();
+   return false;
+  }
+ var chkZ = 1;
+ for(i=0;i<document.formulaire.age.value.length;++i)
+   if(document.formulaire.age.value.charAt(i) < "1"
+   || document.formulaire.age.value.charAt(i) > "99")
+     	 chkZ = -1;
+ if(chkZ == -1) {
+   alert("votre age n'est pas correcte veuillez mettre un nombre !!!");
+       document.formulaire.age.focus();
+   return false;
+  }
+}
+//-->
+    </script>
 
+      <h5 style="font-size: 1.8em; text-align: center;">Formulaire D'inscription</h5>
+      <p style="font-size: 1.5em; color:red;">Les champs avec * sont obligatoires</p>
+      <form name="formulaire" action="mailto:votreemail@***.***" method="post" onSubmit="return verif_formulaire()">
+      <pre style="font-size: 1.2em;" id="form-inscription">
+
+          Nom:     <input type="text" size="40" name="nom"><br>
+          Prenom:     <input type="text" size="40" name="nom"><br>
+          Date de naissance:     <input type="date" size="40" name="nom"><br>
+          <label for="">Sexe: </label> M <input type="radio" name="choice" value=""> F  <input type="radio" name="choice" value=""> <br>
+          TEL:  <input type="number" size="40" name="nom"><br>
+          Courriel:   <input type="text" size="40" name="courriel"> <br>
+          <label for="">Sexe: </label> M <input type="radio" name="choice" value=""> F  <input type="radio" name="choice" value=""> <br>
+          Mot de Passe:  <input type="text" size="40" name="mot_de_passe"><br>
+
+    <form>
+            formulaire: <input type="submit" value="Envoyer"><input type="reset" value="Tout enlever">
+
+            Pour envoyer vous devez être connecté à Internet!
+      </pre>
+    </form>
+    <div class="">
+
+        <h3 style=" font-size: 2em; padding-top: 1.2em; text-shadow: -1px 0 black, 0 1px black;">votre avis compte beaucoup pour nous</h3>
+        <form class="rating" id="avis-inscription">
+
+             <label>
+              <input type="radio" name="stars" value="1" />
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="2" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="3" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="4" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="5" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+     </form>
+      <p style=" font-size: 1.2em;">vote avis est important pour améliorer notre  blala blala blala (également appelé faux-texte, lipsum, ou bolo bolo1) est, en imprimerie, une suite de mots sans <br> signification  utilisée à titre provisoire pour
+        calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée.</p>
+     </div>
 
   </main>
   <hr>
