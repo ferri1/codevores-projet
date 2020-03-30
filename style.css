@@ -37,11 +37,11 @@
   content: '-';
 }
 
-.content {
+.content{
   background-color: #fff;
   display: none;
 }
-.content-inner {
+.content-inner{
   padding: 15px;
 }
 .span{
@@ -171,4 +171,92 @@
 .rating label input:focus:not(:checked) ~ .icon:last-child {
   color: #000;
   text-shadow: 0 0 5px #09f;
+}
+/************************************************** page professionnel *********************************/
+/* button formulaire */
+#header {
+		background-color	: lightblue;
+}
+
+#bouton {
+		width				: 100px;
+		height				: 50px;
+		display				: block;
+		border				: 1px solid yellow;
+		margin				: 5px;
+		text-align			: center;
+	 color : #eee;
+	 text-transform: uppercase;
+	 background-color: #e67e22;
+	 font-size: 20px;
+}
+/* le cv de lynda */
+.pagepro{
+	background-color: grey;
+}
+.page{
+	width:  780px;
+	margin:   auto;
+	font-family:  'Source sans Pro', Calibrer, Tahama, sans-serif;
+	font-size: 16px;
+	border: 5px  solid #3388cc;
+	border-radius: 10px;
+	box-shadow: 2px 3px 4px black;
+	padding: 20px;
+	background-color: white;
+}
+.infophoto{
+	height: 250px;
+}
+.info{
+	float: left;
+}
+.photo{
+	float: right;
+}
+.section{
+	margin-bottom: 70px;
+	text-align: justify;
+}
+.section:hover{
+	color: #00AA00;
+
+}
+.sec-gauche{
+	float:   left;
+	font-weight: bold;
+	font-size: 20px;
+}
+.sec-droite{
+   margin-left: 180px;
+	 /* margin-top:25px; */
+}
+h5{
+	font-size: 23px;
+	color: #3388bb;
+	border-bottom: 3px solid #3388dd;
+}
+.duree{
+	font-weight: normal;
+	font-style: italic;
+		font-size: 16px;
+}
+.titre{
+	font-weight: bold;
+	font-size: 20px;
+}
+	.forma-gauchee p{
+		margin-bottom: 30px;
+	}
+/* .forma-gauchee p{
+	margin-bottom: 25px;
+} */
+#exp-gauche p{
+	margin-top: 32px;
+}
+#lang-droit p{
+
+}
+strong{
+	font-size: 22px;
 }

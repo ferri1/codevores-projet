@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------
+--------------------------- RESPONSIVE ------------------------------------ */
+/* *------------ ECRAN TAILLE MAXI <1024px ---------------------------- */
+@media screen and (max-width:1024px){
+	 /* ----------------- FONT / TEXTE ----------- */
+	#liste-candidats{
+		text-align: center;
+	}
+	 /* ------------ MARGIN / PADDING ----------- */
+	.mt-30{
+		margin-top: 30px;
+	}
+	.mb-10{
+		margin-bottom: 10px;
+	}
+}
+/* ------------ ECRAN MOBILE TAILLE MAXI <425px ---------------------------- */
+@media screen and (max-width:425px){
+	 /* ----------------- FONT / TEXTE ----------- */
+	#liste-candidats{
+		font-size: 1.2em;
+	}
+}
+/* ----------- ECRAN MOBILE TAILLE MAXI <320px ---------------------------- */
+@media screen and (max-width:320px){
+	 /* ----------------- FONT / TEXTE ----------- */
+	#adresse{
+		line-height: 19px;
+	}
+}
